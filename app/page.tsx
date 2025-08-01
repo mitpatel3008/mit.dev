@@ -161,9 +161,8 @@ export default function Portfolio() {
                   AI/ML Enthusiast
                 </p>
                 <p className="text-base md:text-lg text-gray-500 max-w-lg mx-auto lg:mx-0">
-                  Learning Deep Learning and Computational ML to create
-                  impactful AI solutions. I’m driven by curiosity, clean code,
-                  and solving real-world challenges with data.
+                  Completed coursework in Machine Learning; currently advancing
+                  knowledge in Deep Learning.
                 </p>
               </div>
 
@@ -182,7 +181,7 @@ export default function Portfolio() {
                   size="lg"
                   className="border-black text-black hover:bg-black hover:text-white bg-transparent"
                 >
-                  <a href="/MitPatel_Resume.pdf" download>
+                  <a href="/mit.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="w-4 h-4 mr-2" />
                     My Resume
                   </a>
@@ -191,19 +190,21 @@ export default function Portfolio() {
 
               <div className="flex space-x-6 justify-center lg:justify-start">
                 <Link
-                  href="#"
+                  href="https://github.com/mitpatel3008"
                   className="text-gray-600 hover:text-black transition-colors"
+                  target="_blank"
                 >
                   <Github className="w-6 h-6" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/in/mit-patel-ab3177320/"
                   className="text-gray-600 hover:text-black transition-colors"
+                  target="_blank"
                 >
                   <Linkedin className="w-6 h-6" />
                 </Link>
                 <Link
-                  href="#"
+                  href="mailto:mitpatel3008@gmail.com"
                   className="text-gray-600 hover:text-black transition-colors"
                 >
                   <Mail className="w-6 h-6" />
@@ -238,23 +239,17 @@ export default function Portfolio() {
               About Me
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-              I'm a passionate developer with 5+ years of experience creating
-              digital solutions that make a difference. I love turning complex
-              problems into simple, beautiful designs.
+            I’m passionate about building intelligent systems and solving real-world problems. I write clean, efficient code and continuously grow my skills in AI and software development.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-6">
               <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                With a background in both development and design, I bring a
-                unique perspective to every project. I specialize in creating
-                seamless user experiences backed by robust, scalable code.
+                With a foundation in computer science from Pandit Deendayal Energy University, I explore how AI can power smarter, adaptive systems through hands-on learning and real-world projects.
               </p>
               <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open source projects, or sharing knowledge with
-                the developer community.
+               When I’m not coding, you’ll find me exploring the latest in deep learning, contributing to open-source communities, or learning from real-world innovations that inspire me to think bigger and build better.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">
@@ -279,22 +274,31 @@ export default function Portfolio() {
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Award className="w-5 h-5 mr-2 text-black" />
-                    Achievements
+                    Roadmap
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
-                    <span>Projects Completed</span>
-                    <span className="font-semibold">30+</span>
+                    <span>	•	Transformers & Attention Mechanisms</span>
+                    <span className="font-semibold"></span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Linkedin Connection</span>
-                    <span className="font-semibold">500+</span>
+                    <span>	•	Large Language Models (LLMs)</span>
+                    <span className="font-semibold"></span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Experience</span>
-                    <span className="font-semibold">1+</span>
+                    <span>	•	GenAI Applications using LangChain & OpenAI</span>
+                    <span className="font-semibold"></span>
                   </div>
+                  <div className="flex justify-between">
+                    <span>	•	FastAPI & Deployment Workflows</span>
+                    <span className="font-semibold"></span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>	•	End-to-End AI Projects with Real-World Data</span>
+                    <span className="font-semibold"></span>
+                  </div>
+
                 </CardContent>
               </Card>
             </div>
@@ -321,7 +325,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=200&width=400&text=Project+1"
+                  src="/movie.jpg?height=200&width=400&text=Project+1"
                   alt="Project 1"
                   width={400}
                   height={200}
@@ -349,7 +353,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>E-Commerce Platform</CardTitle>
+                <CardTitle>Moive Recommender System</CardTitle>
                 <CardDescription>
                   A full-featured e-commerce solution with payment integration
                 </CardDescription>
@@ -375,7 +379,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=200&width=400&text=Project+2"
+                  src="/final.jpeg?height=200&width=400&text=Project+2"
                   alt="Project 2"
                   width={400}
                   height={200}
@@ -403,7 +407,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Task Management App</CardTitle>
+                <CardTitle>Cat vs Dog Classifier</CardTitle>
                 <CardDescription>
                   A collaborative project management tool with real-time updates
                 </CardDescription>
@@ -429,7 +433,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black sm:col-span-2 lg:col-span-1">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=200&width=400&text=Project+3"
+                  src="/hhee.webp?height=200&width=400&text=Project+3"
                   alt="Project 3"
                   width={400}
                   height={200}
@@ -457,7 +461,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Weather Dashboard</CardTitle>
+                <CardTitle>Customer Churn Prediction</CardTitle>
                 <CardDescription>
                   A beautiful weather app with location-based forecasts
                 </CardDescription>
@@ -749,7 +753,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <p className="font-medium text-black">Email</p>
-                      <p className="text-gray-600">your.email@example.com</p>
+                      <p className="text-gray-600">mit.p30082@gmail.com</p>
                     </div>
                   </div>
 
@@ -759,7 +763,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <p className="font-medium text-black">Phone</p>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <p className="text-gray-600">+91 9426691616</p>
                     </div>
                   </div>
 
@@ -769,7 +773,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <p className="font-medium text-black">Location</p>
-                      <p className="text-gray-600">Your City, Country</p>
+                      <p className="text-gray-600">Gandhinagar, India</p>
                     </div>
                   </div>
                 </div>
@@ -777,19 +781,21 @@ export default function Portfolio() {
 
               <div className="flex space-x-6">
                 <Link
-                  href="#"
+                  href="https://github.com/mitpatel3008"
                   className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition-colors"
+                  target="_blank"
                 >
                   <Github className="w-6 h-6" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/in/mit-patel-ab3177320/"
                   className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition-colors"
+                  target="_blank"
                 >
                   <Linkedin className="w-6 h-6" />
                 </Link>
                 <Link
-                  href="#"
+                  href="mailto:mitpatel3008@gmail.com"
                   className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition-colors"
                 >
                   <Mail className="w-6 h-6" />
@@ -814,7 +820,7 @@ export default function Portfolio() {
                       <input
                         type="text"
                         className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                        placeholder="John"
+                        placeholder="Mit"
                       />
                     </div>
                     <div>
@@ -824,7 +830,7 @@ export default function Portfolio() {
                       <input
                         type="text"
                         className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                        placeholder="Doe"
+                        placeholder="Patel"
                       />
                     </div>
                   </div>
@@ -836,7 +842,7 @@ export default function Portfolio() {
                     <input
                       type="email"
                       className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                      placeholder="john@example.com"
+                      placeholder="mit.patel@example.com"
                     />
                   </div>
 
@@ -879,7 +885,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-gray-300">
-                © 2025 Mit S Patel. All rights reserved.
+                ©️ 2025 Mit S Patel. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">
