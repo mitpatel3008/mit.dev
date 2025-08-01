@@ -507,34 +507,34 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Code className="w-5 h-5 mr-2 text-black" />
-                  Frontend
+                  Languages
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex flex-wrap gap-2">
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    React
+                    Python
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Vue.js
+                    C
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Next.js
+                    C++
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    TypeScript
+                    Java
+                  </Badge>
+                  <Badge className="bg-black text-white hover:bg-gray-800">
+                    HTML
+                  </Badge>
+                  <Badge className="bg-black text-white hover:bg-gray-800">
+                    CSS
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
                     JavaScript
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    HTML5
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    CSS3
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Tailwind CSS
+                    MySQL
                   </Badge>
                 </div>
               </CardContent>
@@ -544,34 +544,34 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Database className="w-5 h-5 mr-2 text-black" />
-                  Backend
+                  Libraries
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex flex-wrap gap-2">
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Node.js
+                    Numpy
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Express
+                    Pandas
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Python
+                    Matplolib
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Django
+                    Seaborn
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    PostgreSQL
+                    scikit-learn
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    MongoDB
+                    TensorFlow
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Redis
+                    Tableau
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    GraphQL
+                    Power BI
                   </Badge>
                 </div>
               </CardContent>
@@ -581,34 +581,16 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Globe className="w-5 h-5 mr-2 text-black" />
-                  DevOps & Tools
+                  AI/ML
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex flex-wrap gap-2">
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Docker
+                    Machine Learning
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    AWS
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Vercel
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Git
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    GitHub Actions
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Jest
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Cypress
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Webpack
+                    Deep Learning
                   </Badge>
                 </div>
               </CardContent>
@@ -618,17 +600,11 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Palette className="w-5 h-5 mr-2 text-black" />
-                  Design
+                  Creative Tools
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex flex-wrap gap-2">
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Figma
-                  </Badge>
-                  <Badge className="bg-black text-white hover:bg-gray-800">
-                    Adobe XD
-                  </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
                     Photoshop
                   </Badge>
@@ -636,13 +612,16 @@ export default function Portfolio() {
                     Illustrator
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    UI/UX Design
+                    Premiere Pro 
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Prototyping
+                    After Effects
                   </Badge>
                   <Badge className="bg-black text-white hover:bg-gray-800">
-                    Wireframing
+                    After Effects
+                  </Badge>
+                  <Badge className="bg-black text-white hover:bg-gray-800">
+                    CapCut
                   </Badge>
                 </div>
               </CardContent>
@@ -673,21 +652,20 @@ export default function Portfolio() {
                       Bachelor's in Computer Science
                     </CardTitle>
                     <CardDescription className="mt-2">
-                      University Name
+                      Pandit Deendayal Energy University
                     </CardDescription>
                   </div>
                   <Badge
                     variant="secondary"
                     className="bg-black text-white self-start"
                   >
-                    2015 - 2019
+                    2023-2027
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Graduated with honors. Specialized in software engineering and
-                  web development.
+                  Specializing in Artificial Intelligence and Data Science.
                 </p>
               </CardContent>
             </Card>
@@ -696,27 +674,19 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Award className="w-5 h-5 mr-2 text-black" />
-                  Certifications
+                  Highlights
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span>AWS Certified Developer</span>
-                  <Badge variant="outline" className="border-black text-black">
-                    2023
-                  </Badge>
+                  <span>• 15+ AI/ML Projects Completed</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span>Google Cloud Professional</span>
-                  <Badge variant="outline" className="border-black text-black">
-                    2022
-                  </Badge>
+                  <span>• Working under Prof. [Dr. Amitava Choudhary]</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span>React Developer Certification</span>
-                  <Badge variant="outline" className="border-black text-black">
-                    2021
-                  </Badge>
+                  <span>• 500+ LinkedIn Connections</span>
+                  
                 </div>
               </CardContent>
             </Card>
