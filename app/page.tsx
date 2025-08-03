@@ -597,7 +597,7 @@ export default function Portfolio() {
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqHIknnDmTFl3In08bcWIkGRHY0G83XZG9Ww&s"
                     alt="Python Libraries Icon"
-                    className="w-6 h-6 mr-2"
+                    className="w-7 h-6 mr-2"
                   />
                    AI/ML
                 </CardTitle>
@@ -617,7 +617,7 @@ export default function Portfolio() {
             <Card className="border-black">
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Palette className="w-6 h-6 mr-2 text-black" />
+                  <Palette className="w-7 h-7 mr-2 text-black" />
                   Creative Tools
                 </CardTitle>
               </CardHeader>
