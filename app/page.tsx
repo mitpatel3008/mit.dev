@@ -339,44 +339,66 @@ export default function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
-                    <Button
-                      size="sm"
-                      variant="secondary"
-                      className="bg-white text-black hover:bg-gray-100"
+                    <a
+                      href="https://movierecommender-sys.streamlit.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="secondary"
-                      className="bg-white text-black hover:bg-gray-100"
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/mitpatel3008/MovieRecommender-app"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Button>
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
               <CardHeader>
                 <CardTitle>Moive Recommender System</CardTitle>
                 <CardDescription>
-                  A full-featured e-commerce solution with payment integration
+                  Recommends similar movies using content-based filtering with a
+                  Streamlit interface and TMDB poster API.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="border-black text-black">
-                    React
+                    TF-IDF
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Node.js
+                    TMDB API
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    MongoDB
+                    Data Cleaning
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Stripe
+                    Poster Fetching
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Cosine Similarity
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Text Preprocessing
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Streamlit
                   </Badge>
                 </div>
               </CardContent>
@@ -393,44 +415,60 @@ export default function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
-                    <Button
+                    {/* <Button
                       size="sm"
                       variant="secondary"
                       className="bg-white text-black hover:bg-gray-100"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="secondary"
-                      className="bg-white text-black hover:bg-gray-100"
+                    </Button> */}
+                    <a
+                      href="https://github.com/mitpatel3008/cat-vs-dog"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Button>
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
               <CardHeader>
                 <CardTitle>Cat vs Dog Classifier</CardTitle>
                 <CardDescription>
-                  A collaborative project management tool with real-time updates
+                  Classifies cat and dog images using a TensorFlow CNN with
+                  Streamlit.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="border-black text-black">
-                    Vue.js
+                    TensorFlow
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Express
+                    Data Augmentation
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Socket.io
+                    ImageDataGenerator
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    PostgreSQL
+                    BatchNormalization
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    MaxPooling
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    CNN
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Streamlit
                   </Badge>
                 </div>
               </CardContent>
@@ -447,44 +485,60 @@ export default function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
-                    <Button
+                    {/* <Button
                       size="sm"
                       variant="secondary"
                       className="bg-white text-black hover:bg-gray-100"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="secondary"
-                      className="bg-white text-black hover:bg-gray-100"
+                    </Button> */}
+                    <a
+                      href="https://github.com/mitpatel3008/CustomerChurnPrediction"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Button>
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
               <CardHeader>
                 <CardTitle>Customer Churn Prediction</CardTitle>
                 <CardDescription>
-                  A beautiful weather app with location-based forecasts
+                  Predicts customer churn using a TensorFlow model with cleaned
+                  and prepared telco data.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="border-black text-black">
-                    Next.js
+                    TensorFlow
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    TypeScript
+                    Sequential Model
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Tailwind
+                    Data Cleaning
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    API
+                    MinMaxScaler
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Binary Classification
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Label Encoding
+                  </Badge>
+                  <Badge variant="outline" className="border-black text-black">
+                    Telco Dataset
                   </Badge>
                 </div>
               </CardContent>
@@ -558,7 +612,7 @@ export default function Portfolio() {
                     alt="Python Libraries Icon"
                     className="w-8 h-9 mr-2"
                   />
-                   Libraries
+                  Libraries
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
@@ -599,7 +653,7 @@ export default function Portfolio() {
                     alt="Python Libraries Icon"
                     className="w-7 h-6 mr-2"
                   />
-                   AI/ML
+                  AI/ML
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
