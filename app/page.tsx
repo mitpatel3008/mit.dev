@@ -844,77 +844,84 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <Card className="border-black">
-              <CardHeader>
-                <CardTitle>Send me a message</CardTitle>
-                <CardDescription>
-                  I'll get back to you as soon as possible
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-medium text-black mb-2">
-                        First Name
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                        placeholder="Mit"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-black mb-2">
-                        Last Name
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                        placeholder="Patel"
-                      />
-                    </div>
-                  </div>
+            <form
+              action="https://formspree.io/f/xnnzgbro" // Replace with your Formspree endpoint
+              method="POST"
+              className="space-y-6"
+            >
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-black mb-2">
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    name="First Name" // Add the 'name' attribute
+                    className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                    placeholder="Mit"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-black mb-2">
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    name="Last Name" // Add the 'name' attribute
+                    className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                    placeholder="Patel"
+                    required
+                  />
+                </div>
+              </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-black mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                      placeholder="mit.patel@example.com"
-                    />
-                  </div>
+              <div>
+                <label className="block text-sm font-medium text-black mb-2">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="_replyto" // Use '_replyto' to set the reply-to header
+                  className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                  placeholder="mit.patel@example.com"
+                  required
+                />
+              </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-black mb-2">
-                      Subject
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                      placeholder="Project Inquiry"
-                    />
-                  </div>
+              <div>
+                <label className="block text-sm font-medium text-black mb-2">
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  name="_subject" // Use '_subject' to set the email subject
+                  className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                  placeholder="Project Inquiry"
+                  required
+                />
+              </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-black mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      rows={4}
-                      className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
-                      placeholder="Tell me about your project..."
-                    ></textarea>
-                  </div>
+              <div>
+                <label className="block text-sm font-medium text-black mb-2">
+                  Message
+                </label>
+                <textarea
+                  rows={4}
+                  name="Message" // Add the 'name' attribute
+                  className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+              </div>
 
-                  <Button className="w-full bg-black hover:bg-gray-800 text-white">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+              <Button
+                type="submit"
+                className="w-full bg-black hover:bg-gray-800 text-white"
+              >
+                Send Message
+              </Button>
+            </form>
           </div>
         </div>
       </section>
