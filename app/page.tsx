@@ -407,7 +407,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/final.jpeg?height=200&width=400&text=Project+2"
+                  src="/hello.png?height=200&width=400&text=Project+2"
                   alt="Project 2"
                   width={400}
                   height={200}
@@ -477,7 +477,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black sm:col-span-2 lg:col-span-1">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/hhee.webp?height=200&width=400&text=Project+3"
+                  src="/churn.jpeg?height=200&width=400&text=Project+3"
                   alt="Project 3"
                   width={400}
                   height={200}
