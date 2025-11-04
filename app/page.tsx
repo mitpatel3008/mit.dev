@@ -415,6 +415,11 @@ export default function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
+                        <a
+                          href="https://spammail-classifier.streamlit.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        ></a>
                     { <Button
                       size="sm"
                       variant="secondary"
@@ -422,23 +427,9 @@ export default function Portfolio() {
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </Button>}
+                    </Button> }
                     <a
-                      href="https://spammail-classifier.streamlit.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button
-                        size="sm"
-                        variant="secondary"
-                        className="bg-white text-black hover:bg-gray-100"
-                      >
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/mitpatel3008/Spam-Mail-Prediction-Project"
+                      href="https://github.com/mitpatel3008/cat-vs-dog"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -455,9 +446,10 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Email Spam Classifier</CardTitle>
+                <CardTitle>Cat vs Dog Classifier</CardTitle>
                 <CardDescription>
-                  A machine learning web app that classifies emails as spam or ham (genuine) using Natural Language Processing and Logistic Regression.
+                  Classifies cat and dog images using a TensorFlow CNN with
+                  Streamlit.
                 </CardDescription>
               </CardHeader>
               <CardContent>
