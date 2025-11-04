@@ -420,14 +420,14 @@ export default function Portfolio() {
                           target="_blank"
                           rel="noopener noreferrer"
                         ></a>
-                    { <Button
+                    {/* { <Button
                       size="sm"
                       variant="secondary"
                       className="bg-white text-black hover:bg-gray-100"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </Button> }
+                    
+                    </Button> } */}
                     <a
                       href="https://github.com/mitpatel3008/cat-vs-dog"
                       target="_blank"
