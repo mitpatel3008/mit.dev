@@ -181,7 +181,11 @@ export default function Portfolio() {
                   size="lg"
                   className="border-black text-black hover:bg-black hover:text-white bg-transparent"
                 >
-                  <a href="/Mit Soneshbhai Patel.pdf" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="/Mit Soneshbhai Patel.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Download className="w-4 h-4 mr-2" />
                     My Resume
                   </a>
@@ -413,44 +417,46 @@ export default function Portfolio() {
                   height={200}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-<div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-  <div className="flex space-x-4">
-    <a
-      href="https://spammail-classifier.streamlit.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Button
-        size="sm"
-        variant="secondary"
-        className="bg-white text-black hover:bg-gray-100"
-      >
-        <ExternalLink className="w-4 h-4 mr-2" />
-        Live Demo
-      </Button>
-    </a>
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="flex space-x-4">
+                    <a
+                      href="https://spammail-classifier.streamlit.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </Button>
+                    </a>
 
-    <a
-      href="https://github.com/mitpatel3008/Spam-Mail-Prediction-Project?tab=readme-ov-file"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Button
-        size="sm"
-        variant="secondary"
-        className="bg-white text-black hover:bg-gray-100"
-      >
-        <Github className="w-4 h-4 mr-2" />
-        Code
-      </Button>
-    </a>
-  </div>
-</div>  
+                    <a
+                      href="https://github.com/mitpatel3008/Spam-Mail-Prediction-Project?tab=readme-ov-file"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button
+                        size="sm"
+                        variant="secondary"
+                        className="bg-white text-black hover:bg-gray-100"
+                      >
+                        <Github className="w-4 h-4 mr-2" />
+                        Code
+                      </Button>
+                    </a>
+                  </div>
+                </div>
               </div>
               <CardHeader>
                 <CardTitle>Spam-Mail Classifier</CardTitle>
                 <CardDescription>
-                  A machine learning web app that classifies emails as spam or ham (genuine) using Natural Language Processing and Logistic Regression.
+                  A machine learning web app that classifies emails as spam or
+                  ham (genuine) using Natural Language Processing and Logistic
+                  Regression.
                 </CardDescription>
               </CardHeader>
               <CardContent>
