@@ -420,16 +420,8 @@ export default function Portfolio() {
                           target="_blank"
                           rel="noopener noreferrer"
                         ></a>
-                    {/* { <Button
-                      size="sm"
-                      variant="secondary"
-                      className="bg-white text-black hover:bg-gray-100"
-                    >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                    
-                    </Button> } */}
                     <a
-                      href="https://github.com/mitpatel3008/cat-vs-dog"
+                      href="https://github.com/mitpatel3008/Spam-Mail-Prediction-Project?tab=readme-ov-file"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -446,10 +438,9 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Cat vs Dog Classifier</CardTitle>
+                <CardTitle>Spam-Mail Classifier</CardTitle>
                 <CardDescription>
-                  Classifies cat and dog images using a TensorFlow CNN with
-                  Streamlit.
+                  A machine learning web app that classifies emails as spam or ham (genuine) using Natural Language Processing and Logistic Regression.
                 </CardDescription>
               </CardHeader>
               <CardContent>
