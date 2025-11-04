@@ -411,7 +411,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/hello.png?height=200&width=400&text=Project+2"
+                  src="/email.png?height=200&width=400&text=Project+2"
                   alt="Project 2"
                   width={400}
                   height={200}
@@ -462,22 +462,22 @@ export default function Portfolio() {
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="border-black text-black">
-                    TensorFlow
+                    TfidfVectorizer
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    Data Augmentation
+                    Logistic Regression
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    ImageDataGenerator
+                    NumPy
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    BatchNormalization
+                    Pandas
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    MaxPooling
+                    Pickle
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
-                    CNN
+                    public SMS/email spam dataset
                   </Badge>
                   <Badge variant="outline" className="border-black text-black">
                     Streamlit
