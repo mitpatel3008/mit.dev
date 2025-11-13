@@ -1,0 +1,59 @@
+
+> my-v0-project@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.4
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.3:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (838 modules)
+ GET / 200 in 2496ms
+ ✓ Compiled in 327ms (370 modules)
+ GET / 200 in 110ms
+ ✓ Compiled in 737ms (370 modules)
+ ✓ Compiled in 255ms (370 modules)
+ ✓ Compiled in 872ms (370 modules)
+ ✓ Compiled in 1129ms (820 modules)
+ GET / 200 in 665ms
+ ✓ Compiled in 940ms (820 modules)
+ GET / 200 in 132ms
+ GET / 200 in 267ms
+ ✓ Compiled in 954ms (820 modules)
+ GET / 200 in 117ms
+ ✓ Compiled /_not-found in 342ms (810 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/ba7fce8ca6a2b9ac.webpack.hot-update.json 404 in 414ms
+ GET / 200 in 151ms
+ GET / 200 in 110ms
+ GET / 200 in 98ms
+ GET / 200 in 106ms
+ ✓ Compiled in 732ms (820 modules)
+ GET / 200 in 58ms
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/mitpatel/Desktop/mit.dev/app/page.tsx[0m:54:1]
+ [2m51[0m |   };
+ [2m52[0m | 
+ [2m53[0m |   return (
+ [2m54[0m |     <div className="min-h-screen bg-white">
+    : [35;1m     ^^^[0m
+ [2m55[0m |       {/* Navigation */}
+ [2m56[0m |       <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+ [2m57[0m |         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 5s (1135 modules)
+ GET / 500 in 6802ms
+ GET / 200 in 17ms
+ GET / 200 in 1499ms
+ ✓ Compiled in 1596ms (1108 modules)
+ GET / 200 in 198ms

@@ -27,6 +27,7 @@ import {
   Globe,
   Menu,
   X,
+  Briefcase,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -312,6 +313,175 @@ export default function Portfolio() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section
+        id="experience"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+              Experience
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="border-black">
+              <CardHeader>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
+                  <div>
+                    <CardTitle className="flex items-center">
+                      <Briefcase className="w-5 h-5 mr-2 text-black" />
+                      AI/ML Intern — JPMorgan Chase
+                    </CardTitle>
+                    <CardDescription className="mt-2">2024</CardDescription>
+                  </div>
+                  <Badge
+                    variant="secondary"
+                    className="bg-black text-white self-start"
+                  >
+                    2024
+                  </Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li>
+                    Worked on real-world machine learning projects involving
+                    data preprocessing, feature engineering, and model
+                    development.
+                  </li>
+                  <li>
+                    Built and evaluated models using Python, Scikit-learn,
+                    XGBoost, and deep learning frameworks.
+                  </li>
+                  <li>
+                    Collaborated with senior engineers to improve model accuracy
+                    and reliability.
+                  </li>
+                  <li>
+                    Gained hands-on experience with TabPFN, modern ML workflows,
+                    and production-focused model analysis.
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+      {/* Self Assessment (SWOT) Section */}
+      <section
+        id="self-assessment"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      >
+        <div className="max-w-6xl mx-auto">
+          {/* Heading */}
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+              Self Assessment
+            </h2>
+          </div>
+
+          {/* Certification Card */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Award className="w-5 h-5 mr-2 text-black" />
+                  Certification
+                </CardTitle>
+              </CardHeader>
+
+              <CardContent className="space-y-4">
+                <p className="text-gray-600 leading-relaxed">
+                  Completed a comprehensive workshop on Power BI & Tableau
+                  organized by the Society of Mathematics, gaining hands-on
+                  experience in data visualization, dashboard creation, and
+                  analytics.
+                </p>
+                <br />
+
+                <a
+                  href="https://drive.google.com/file/d/1zSN1MI1oTZq_Vd7sCDyFO8KuMLVlRWVs/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-black hover:bg-gray-800 text-white">
+                    Open Certificate
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* SWOT Title */}
+          <div className="text-center mb-6">
+            <p className="text-lg md:text-xl text-gray-700 font-semibold">
+              SWOT Analysis
+            </p>
+          </div>
+
+          {/* SWOT Grid */}
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+            {/* Strengths */}
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle>Strengths</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 leading-relaxed">
+                  Strong foundation in AI/ML, Python, and data analytics,
+                  combined with high adaptability and a strong willingness to
+                  learn.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Weaknesses */}
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle>Weaknesses</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 leading-relaxed">
+                  Limited real-world industry exposure and currently improving
+                  advanced model tuning, optimization, and large-scale system
+                  skills.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Opportunities */}
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle>Opportunities</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 leading-relaxed">
+                  Rapidly expanding AI industry offers opportunities to build
+                  real-world project experience, enhance technical skills, and
+                  gain exposure to cutting-edge tools and technologies.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Threats */}
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle>Threats</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 leading-relaxed">
+                  Fast-paced advancements in AI and increasing competition
+                  require constant skill upgrades to remain relevant and
+                  maintain a competitive edge.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -770,6 +940,37 @@ export default function Portfolio() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span>• 500+ LinkedIn Connections</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial Section */}
+      <section
+        id="testimonial"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+              Testimonial
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="border-black">
+              <CardContent className="p-6 md:p-8">
+                <p className="text-lg md:text-xl text-gray-700 italic leading-relaxed">
+                  “Working with my friend Mit Patel on the One Bank project was
+                  a great experience. We collaborated smoothly, shared ideas
+                  openly, and built a strong project together. His dedication,
+                  problem-solving mindset, and teamwork made the entire process
+                  enjoyable and successful.”
+                </p>
+                <div className="mt-6 text-right">
+                  <p className="font-semibold text-black">— Ansh Soni</p>
                 </div>
               </CardContent>
             </Card>
