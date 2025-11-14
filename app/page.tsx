@@ -28,6 +28,7 @@ import {
   Menu,
   X,
   Briefcase,
+  Users,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -373,6 +374,43 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      {/* Collaborative and Leadership Experiences */}
+      <section
+        id="leadership"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+              Collaborative and Leadership Experiences
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="border-black">
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Users className="w-5 h-5 mr-2 text-black" />
+                  Team Coordinator — Customer Churn Prediction Project
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4 text-gray-700">
+                <p>
+                  During my Customer Churn Prediction project, I served as team coordinator. I organized meetings, assigned tasks based on each member’s strengths, and motivated everyone to meet deadlines. By encouraging open discussion and resolving differences, I helped the team finish the project early. This experience improved my teamwork and leadership skills.
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Organized meetings and timelines</li>
+                  <li>Assigned tasks aligned to teammates’ strengths</li>
+                  <li>Encouraged open discussion and resolved differences</li>
+                  <li>Delivered ahead of schedule; strengthened leadership skills</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Self Assessment (SWOT) Section */}
       <section
         id="self-assessment"
