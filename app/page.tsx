@@ -411,6 +411,69 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Global Awareness & Ethical Considerations */}
+      <section
+        id="global-awareness"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-8 md:mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
+              Global Awareness & Ethical Considerations
+            </h2>
+            <p className="text-lg text-gray-600">
+              Case Study: Email Spam Classification Project
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-6">
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg">Global Issue</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  Spam emails are a worldwide problem, causing financial loss and privacy risks for people everywhere.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg">Ethical Dilemma</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  Genuine emails can be flagged as spam by mistake. This can harm small businesses and users, so it’s important to balance strict filtering with fairness.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg">Bias and Privacy</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  I used a wide range of training data to avoid language or cultural bias. I also kept personal data confidential to respect user privacy.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="text-lg">Personal Reflection</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                  This project taught me to always think about the real-world impact and ethical risks of my solutions. As a developer, I believe in building technology that is fair, secure, and helpful for all users.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Self Assessment (SWOT) Section */}
       <section
         id="self-assessment"
