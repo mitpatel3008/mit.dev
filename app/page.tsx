@@ -318,274 +318,9 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section
-        id="experience"
-        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Experience
-            </h2>
-          </div>
 
-          <div className="max-w-3xl mx-auto">
-            <Card className="border-black">
-              <CardHeader>
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
-                  <div>
-                    <CardTitle className="flex items-center">
-                      <Briefcase className="w-5 h-5 mr-2 text-black" />
-                      AI/ML Intern — JPMorgan Chase
-                    </CardTitle>
-                    <CardDescription className="mt-2">2024</CardDescription>
-                  </div>
-                  <Badge
-                    variant="secondary"
-                    className="bg-black text-white self-start"
-                  >
-                    2024
-                  </Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>
-                    Worked on real-world machine learning projects involving
-                    data preprocessing, feature engineering, and model
-                    development.
-                  </li>
-                  <li>
-                    Built and evaluated models using Python, Scikit-learn,
-                    XGBoost, and deep learning frameworks.
-                  </li>
-                  <li>
-                    Collaborated with senior engineers to improve model accuracy
-                    and reliability.
-                  </li>
-                  <li>
-                    Gained hands-on experience with TabPFN, modern ML workflows,
-                    and production-focused model analysis.
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
-      {/* Collaborative and Leadership Experiences */}
-      <section
-        id="leadership"
-        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Collaborative and Leadership Experiences
-            </h2>
-          </div>
 
-          <div className="max-w-3xl mx-auto">
-            <Card className="border-black">
-              <CardHeader>
-                <CardTitle className="flex items-center">
-                  <Users className="w-5 h-5 mr-2 text-black" />
-                  Team Coordinator — Customer Churn Prediction Project
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4 text-gray-700">
-                <p>
-                  During my Customer Churn Prediction project, I served as team coordinator. I organized meetings, assigned tasks based on each member’s strengths, and motivated everyone to meet deadlines. By encouraging open discussion and resolving differences, I helped the team finish the project early. This experience improved my teamwork and leadership skills.
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Organized meetings and timelines</li>
-                  <li>Assigned tasks aligned to teammates’ strengths</li>
-                  <li>Encouraged open discussion and resolved differences</li>
-                  <li>Delivered ahead of schedule; strengthened leadership skills</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Global Awareness & Ethical Considerations */}
-      <section
-        id="global-awareness"
-        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white"
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-8 md:mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
-              Global Awareness & Ethical Considerations
-            </h2>
-            <p className="text-lg text-gray-600">
-              Case Study: Email Spam Classification Project
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto space-y-6">
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle className="text-lg">Global Issue</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                  Spam emails are a worldwide problem, causing financial loss and privacy risks for people everywhere.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle className="text-lg">Ethical Dilemma</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                  Genuine emails can be flagged as spam by mistake. This can harm small businesses and users, so it’s important to balance strict filtering with fairness.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle className="text-lg">Bias and Privacy</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                  I used a wide range of training data to avoid language or cultural bias. I also kept personal data confidential to respect user privacy.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle className="text-lg">Personal Reflection</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                  This project taught me to always think about the real-world impact and ethical risks of my solutions. As a developer, I believe in building technology that is fair, secure, and helpful for all users.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Self Assessment (SWOT) Section */}
-      <section
-        id="self-assessment"
-        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
-      >
-        <div className="max-w-6xl mx-auto">
-          {/* Heading */}
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Self Assessment
-            </h2>
-          </div>
-
-          {/* Certification Card */}
-          <div className="max-w-3xl mx-auto mb-12">
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle className="flex items-center">
-                  <Award className="w-5 h-5 mr-2 text-black" />
-                  Certification
-                </CardTitle>
-              </CardHeader>
-
-              <CardContent className="space-y-4">
-                <p className="text-gray-600 leading-relaxed">
-                  Completed a comprehensive workshop on Power BI & Tableau
-                  organized by the Society of Mathematics, gaining hands-on
-                  experience in data visualization, dashboard creation, and
-                  analytics.
-                </p>
-                <br />
-
-                <a
-                  href="https://drive.google.com/file/d/1zSN1MI1oTZq_Vd7sCDyFO8KuMLVlRWVs/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="bg-black hover:bg-gray-800 text-white">
-                    Open Certificate
-                  </Button>
-                </a>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* SWOT Title */}
-          <div className="text-center mb-6">
-            <p className="text-lg md:text-xl text-gray-700 font-semibold">
-              SWOT Analysis
-            </p>
-          </div>
-
-          {/* SWOT Grid */}
-          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
-            {/* Strengths */}
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle>Strengths</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  Strong foundation in AI/ML, Python, and data analytics,
-                  combined with high adaptability and a strong willingness to
-                  learn.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Weaknesses */}
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle>Weaknesses</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  Limited real-world industry exposure and currently improving
-                  advanced model tuning, optimization, and large-scale system
-                  skills.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Opportunities */}
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle>Opportunities</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  Rapidly expanding AI industry offers opportunities to build
-                  real-world project experience, enhance technical skills, and
-                  gain exposure to cutting-edge tools and technologies.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Threats */}
-            <Card className="border-black shadow-sm">
-              <CardHeader>
-                <CardTitle>Threats</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 leading-relaxed">
-                  Fast-paced advancements in AI and increasing competition
-                  require constant skill upgrades to remain relevant and
-                  maintain a competitive edge.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Projects Section */}
       <section
@@ -830,6 +565,50 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Self Assessment (Certification) Section */}
+      <section
+        id="self-assessment"
+        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+              Self Assessment
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <Card className="border-black shadow-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Award className="w-5 h-5 mr-2 text-black" />
+                  Certification
+                </CardTitle>
+              </CardHeader>
+
+              <CardContent className="space-y-4">
+                <p className="text-gray-600 leading-relaxed">
+                  Completed a comprehensive workshop on Power BI & Tableau
+                  organized by the Society of Mathematics, gaining hands-on
+                  experience in data visualization, dashboard creation, and
+                  analytics.
+                </p>
+
+                <a
+                  href="https://drive.google.com/file/d/1zSN1MI1oTZq_Vd7sCDyFO8KuMLVlRWVs/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-black hover:bg-gray-800 text-white">
+                    Open Certificate
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Skills Section */}
       <section
         id="skills"
@@ -1048,36 +827,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section
-        id="testimonial"
-        className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-              Testimonial
-            </h2>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <Card className="border-black">
-              <CardContent className="p-6 md:p-8">
-                <p className="text-lg md:text-xl text-gray-700 italic leading-relaxed">
-                  “Working with my friend Mit Patel on the One Bank project was
-                  a great experience. We collaborated smoothly, shared ideas
-                  openly, and built a strong project together. His dedication,
-                  problem-solving mindset, and teamwork made the entire process
-                  enjoyable and successful.”
-                </p>
-                <div className="mt-6 text-right">
-                  <p className="font-semibold text-black">— Ansh Soni</p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section
