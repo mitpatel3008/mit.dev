@@ -222,11 +222,11 @@ export default function Portfolio() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
                 <div className="absolute inset-0 bg-black rounded-full blur-3xl opacity-10"></div>
                 <Image
-                  src="/profile.jpg"
+                  src="/ok.jpg"
                   alt="Mit Patel profile photo"
                   width={320}
                   height={320}
-                  className="relative z-10 rounded-full border-4 border-black shadow-2xl object-cover"
+                  className="relative z-10 rounded-full border-4 border-black shadow-2xl object-cover w-full h-full"
                 />
               </div>
             </div>
