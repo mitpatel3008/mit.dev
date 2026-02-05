@@ -184,7 +184,7 @@ export default function Portfolio() {
                   className="border-black text-black hover:bg-black hover:text-white bg-transparent"
                 >
                   <a
-                    href="/Mit Soneshbhai Patel.pdf"
+                    href="/Mit_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
