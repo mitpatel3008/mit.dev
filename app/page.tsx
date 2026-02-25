@@ -184,7 +184,7 @@ export default function Portfolio() {
                   className="border-black text-black hover:bg-black hover:text-white bg-transparent"
                 >
                   <a
-                    href="/Mit_Resume.pdf"
+                    href="/MitResume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
