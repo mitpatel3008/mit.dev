@@ -417,7 +417,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/email.png?height=200&width=400&text=Project+2"
+                  src="/image.png?height=200&width=400&text=Project+2"
                   alt="Project 2"
                   width={400}
                   height={200}
@@ -426,7 +426,7 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
                     <a
-                      href="https://spammail-classifier.streamlit.app/"
+                      href="https://donor-finder.streamlit.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -441,7 +441,7 @@ export default function Portfolio() {
                     </a>
 
                     <a
-                      href="https://github.com/mitpatel3008/Spam-Mail-Prediction-Project?tab=readme-ov-file"
+                      href="https://github.com/mitpatel3008/charity-donor-prediction"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -458,11 +458,9 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Spam-Mail Classifier</CardTitle>
+                <CardTitle>Charity Donor Prediction</CardTitle>
                 <CardDescription>
-                  A machine learning web app that classifies emails as spam or
-                  ham (genuine) using Natural Language Processing and Logistic
-                  Regression.
+                  A machine learning web app that identifies potential charity donors using XGBoost and recall-optimized classification.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -495,7 +493,7 @@ export default function Portfolio() {
             <Card className="group hover:shadow-xl transition-all duration-300 border-black sm:col-span-2 lg:col-span-1">
               <div className="relative overflow-hidden">
                 <Image
-                  src="/churn.jpeg?height=200&width=400&text=Project+3"
+                  src="/banner2.png?height=200&width=400&text=Project+3"
                   alt="Project 3"
                   width={400}
                   height={200}
@@ -531,8 +529,7 @@ export default function Portfolio() {
               <CardHeader>
                 <CardTitle>Customer Churn Prediction</CardTitle>
                 <CardDescription>
-                  Predicts customer churn using a TensorFlow model with cleaned
-                  and prepared telco data.
+                  A deep learning web app that predicts telecom customer churn using Neural Networks.
                 </CardDescription>
               </CardHeader>
               <CardContent>
